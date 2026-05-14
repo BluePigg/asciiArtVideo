@@ -1,1 +1,1 @@
-/home/bluepig/MyFoLDeR/Coding/ascii/niko1.txt
+/Your/Path.txt
