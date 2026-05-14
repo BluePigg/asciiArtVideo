@@ -30,8 +30,8 @@ vector<string> split(const string &input, const string &delimiter) {
 }
 
 int main() {
-  ifstream atp_file("/home/bluepig/MyFoLDeR/Coding/ascii/ascii_to_play.txt");
-  ifstream as_file("/home/bluepig/MyFoLDeR/Coding/ascii/ascii_speed.txt");
+  ifstream atp_file("/path/to/ascii_to_play.txt");
+  ifstream as_file("/path/to/ascii_speed.txt");
   if (!atp_file.is_open() || !as_file.is_open()) {
     fprintf(stderr, "Error: Could not open config files.\n");
     return 1;
